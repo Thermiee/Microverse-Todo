@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./TodoItem.module.css";
+import styles from "../components/TodoItem.module.css";
 
 class TodosItem extends React.Component {
   state = {

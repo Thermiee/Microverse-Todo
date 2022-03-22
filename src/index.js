@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import TodoContainer from './components/TodoContainer';
+import TodoContainer from './classBased/TodoContainer';
 
 ReactDOM.render(
   <React.StrictMode>
