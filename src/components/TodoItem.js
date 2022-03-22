@@ -1,8 +1,9 @@
-import React from "react"
+import React from "react";
+import styles from './TodoItem.module.css';
 
 function TodoItem(props) {
   return(
-   <li>
+   <li className={styles.item}>
        <input type="checkbox" 
        checked={props.todo.completed} 
        onChange={() => props.handleChangeProps(props.todo.id)}
