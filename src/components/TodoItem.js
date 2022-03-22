@@ -5,6 +5,11 @@ class TodosItem extends React.Component {
   state = {
     editing: false,
   };
+
+  componentWillUnmount() {
+    console.log("Cleaning up...")
+  }
+  
   handleEditing = () => {
     this.setState({
       editing: true,
@@ -17,6 +22,7 @@ class TodosItem extends React.Component {
     }
     console.log(event.key);
   };
+
   render() {
     const completedStyle = {
       fontStyle: "italic",
