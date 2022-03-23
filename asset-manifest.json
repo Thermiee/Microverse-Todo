@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Microverse-Todo/static/css/main.f9532568.css",
+    "main.js": "/Microverse-Todo/static/js/main.e6c778cc.js",
+    "static/js/787.63e47474.chunk.js": "/Microverse-Todo/static/js/787.63e47474.chunk.js",
+    "index.html": "/Microverse-Todo/index.html",
+    "main.f9532568.css.map": "/Microverse-Todo/static/css/main.f9532568.css.map",
+    "main.e6c778cc.js.map": "/Microverse-Todo/static/js/main.e6c778cc.js.map",
+    "787.63e47474.chunk.js.map": "/Microverse-Todo/static/js/787.63e47474.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9532568.css",
+    "static/js/main.e6c778cc.js"
+  ]
+}
