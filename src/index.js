@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HashRouter } from "react-router-dom"
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import TodoContainer from './functionBased/TodoContainer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TodoContainer />
+      <HashRouter>
+      <TodoContainer />
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
